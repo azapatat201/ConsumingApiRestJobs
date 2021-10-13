@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/drawable/icon_ic_launcher.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/layout/activity_main_data_job.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/layout/filter_fragment_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/layout/fragment_blank.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/azapata/AndroidStudioProjects/ConsumingMyFirstApi/app/src/main/res/layout/item_job.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

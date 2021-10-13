@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtHeaderTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Seleccione filtros de busqueda"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgFilter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeaderTitle" >
+
+        <RadioButton
+            android:id="@+id/rbSearchFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por Trabajo o Descripción"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbCategoryFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por Categoría" />
+
+        <RadioButton
+            android:id="@+id/rbCompanyFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por Compañia" />
+
+        <RadioButton
+            android:id="@+id/rbLimiteRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por cantidad registros" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etLimit"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/txtLabelLimit"
+        app:layout_constraintTop_toBottomOf="@+id/rgFilter" />
+
+    <TextView
+        android:id="@+id/txtLabelLimit"
+        android:layout_width="175dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="Limite de Registros:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/rgFilter"
+        tools:layout_editor_absoluteX="97dp" />
+
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#DA082E"
+        android:text="Cancelar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelLimit" />
+
+    <Button
+        android:id="@+id/btAcept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Aceptar"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelLimit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
